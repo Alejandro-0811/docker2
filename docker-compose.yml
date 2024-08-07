@@ -6,7 +6,7 @@ services:
     ports:
       - "4000:5000"
     environment:
-      - CONNECTION_STRING=Driver={ODBC Driver 17 for SQL Server};Server=mssql_db,1433;Database=Flask_SF;Uid=sa;Pwd=engraciacosme123;
+      - CONNECTION_STRING=Driver={ODBC Driver 17 for SQL Server};Server=mssql_db,1433;Database=Flask_SF;Uid=sa;Pwd=Engraciacosme-123;
     depends_on:
       - mssql_db
 
