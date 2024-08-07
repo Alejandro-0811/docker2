@@ -1,0 +1,6 @@
+class Config:
+    SQL_SERVER = 'DESKTOP-1FES8K3\\MSSQLSERVER01'
+    DATABASE = 'Flask_SF'
+    DRIVER = 'SQL Server'
+    CONNECTION_STRING = f'DRIVER={DRIVER};SERVER={SQL_SERVER};DATABASE={DATABASE};Trusted_Connection=yes;'
+
